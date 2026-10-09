@@ -13,7 +13,8 @@ const crypto = require('crypto');
 
 const DURATION = 3600; // 1 hour (seconds)
 const ALLOWED_ORIGINS = [
-  // 'https://yoursite.com',
+  'https://financequizportal.com',
+  'https://www.financequizportal.com',
 ];
 
 function originOk(req) {

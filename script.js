@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
   const rootDomain = getRootDomain(window.location.href);
   const email = 'support@' + rootDomain;
-  const siteName = rootDomain.charAt(0).toUpperCase() + rootDomain.slice(1);
+  const siteName = "Finance Quiz";
   document.querySelectorAll('.domain-name').forEach(el => el.textContent = rootDomain);
   document.querySelectorAll('.domain-email').forEach(el => {
     el.textContent = email;
@@ -33,8 +33,8 @@ const gadsids = {
 
 
 const quizData = [
-  { question: "Who starred in the movie 'Fight Club'?", options: ["Leonardo DiCaprio", "Brad Pitt", "Matt Damon", "Tom Cruise"], correct: "Brad Pitt" },
-  { question: "Which planet is known as the Red Planet?", options: ["Venus", "Mars", "Jupiter", "Saturn"], correct: "Mars" },
+  { question: "What does the term 'ROI' stand for in finance?", options: ["Return on Investment", "Rate of Interest", "Risk of Inflation", "Revenue over Income"], correct: "Return on Investment" },
+  { question: "Which institution is known as the 'lender of last resort' in the US?", options: ["Commercial Bank", "The Federal Reserve", "Investment Firm", "Credit Union"], correct: "The Federal Reserve" },
 
 ];
 
